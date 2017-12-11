@@ -1,0 +1,254 @@
+
+*{margin:0; padding:0; outline:none; border:0;-webkit-tap-highlight-color:rgba(0,0,0,0);tap-highlight-color:rgba(0,0,0,0);-moz-tap-highlight-color:rgba(0,0,0,0);}
+html,body{width:100%; height:100%; font-family:"微软雅黑";font-size:10px;margin:0; color:#000; background:#fff; overflow-y: auto;overflow-x: hidden;}
+
+/*dl,ul,li{list-style:none;}*/
+
+a{color:#FFF;}
+a{border:0;}
+img{border:0; float:left;}
+img {
+	opacity: 0;
+    position: absolute;
+}
+img.show {
+    opacity: 1;
+}
+a:link,a:visited,a:active,a:hover{text-decoration:none;}
+a:focus {
+    outline:none;
+    -moz-outline:none;
+} 
+ul, li{list-style:none;}
+.clear {clear: both;}
+/*div {border:1px solid #000}*/ccc
+/*index*/
+.Dn{display:none;}
+input{
+	/*transparent*/
+	resize: none;overflow:hidden;background-color:transparent;position: absolute;font-size:26px;line-height:58px;width: 438px;height: 58px;color: #fff;
+}
+/*html,body{ background:url(../images/index_b.jpg);}*/
+
+.body{width:640px; height:1040px; float:left; top:50%; margin-top:-520px; left:50%; margin-left:-320px; position:absolute; z-index:1; overflow: hidden;}
+.HP_TS{width: 100%;height: 100%;float: left;top: 0;margin-top: 0px;left: 0;margin-left: 0;position: absolute;background: #000;overflow: hidden;opacity: 0;z-index: -1;}
+	.jt {width: 121px;height: 128px;position: absolute;transform: rotate(-90deg);top: 50%;margin-top: -110px;left: 50%;margin-left: -44px;}
+	.sj {width: 267px;height: 20px;position: absolute;top: 50%;margin-top: 35px;left: 50%;margin-left: -123px;}
+
+.videoM{width:44px; height:44px; top:44px; right:37px; position:fixed; z-index:2999;}
+.videoD{width:0; height:0px; overflow:hidden; position:fixed; z-index:-100;}
+.JD{width:28px; height:16px; bottom:20px; left:50%; margin-left:-14px; position:absolute; z-index:1002; background:url(../images/JD_03.png) no-repeat;display: none;}
+.JD_DH{animation-name: JD_DH; animation-duration: 1000ms; animation-iteration-count: infinite; animation-timing-function: linear; -webkit-animation-name: JD_DH; -webkit-animation-duration: 1000ms; -webkit-animation-iteration-count: infinite; -webkit-animation-timing-function: linear;}
+	@keyframes JD_DH {
+		0% {bottom:20px}
+    	70% {bottom:40px}
+    	100% {bottom:20px}
+	}
+	@-webkit-keyframes JD_DH {
+		0% {bottom:20px}
+    	70% {bottom:40px}
+    	100% {bottom:20px}
+	}
+
+
+.p1{width:640px; height:1040px; float:left; top:50%; margin-top:-520px; left:50%; margin-left:-320px; position:absolute; z-index:1000;opacity:0;background:url(../images/p1.jpg) no-repeat; overflow: hidden;}
+	.p1_up{width: 88px;height: 63px;position: absolute;margin-left: 276px;margin-top: 938px;z-index: 50;display: none;}
+	.p1_mx1{width: 190px;height: 29px;position: absolute;margin-left: 263px;margin-top: 319px;z-index: 50;opacity: 0;}
+	.p1_mx2{width: 114px;height: 25px;position: absolute;margin-left: 478px;margin-top: 331px;z-index: 50;opacity: 0;}
+	.p1_mx3{width: 114px;height: 25px;position: absolute;margin-left: 13px;margin-top: 260px;z-index: 50;opacity: 0;}
+	.p1_1{width:635px;height: 540px;position: absolute;bottom: 234px;z-index: 2;}
+	.p1_2{width:311px;height: 751px;position: absolute;margin-left: 329px;bottom: 0;z-index: 5; }
+	.p1_3{width:292px;height: 815px;position: absolute;margin-left: 0px;bottom: 0;z-index: 5; }
+	.p1_4{width:487px;height: 800px;position: absolute;background:url(../images/p1_4_01.png) no-repeat 0 392px;margin-top: -800px; margin-left:76px;z-index: 10;}
+	.p1_5{width:420px;height: 380px;position: absolute;margin-top: -380px;margin-left:110px;  z-index: 10;background:url(../images/p2_4_01.png) no-repeat 0 182px;}
+	.p1_r1{width: 154px;height: 339px;position: absolute;margin-left: 231px;margin-top: 356px;}
+	.p1_r2{width: 142px;height: 431px;position: absolute;margin-left: 441px;margin-top: 360px;z-index: 3;}
+	.p1_r3{width: 178px;height: 284px;position: absolute;margin-top:300px;z-index: 3;}
+	.yun{width: 70px;z-index: 20;position: absolute;}
+
+.p2{width:640px; height:1040px; float:left; top:0; margin-top:0px; left:50%; margin-left:-320px; position:absolute; z-index:999; overflow:hidden;opacity:0;overflow: hidden;}
+	.can_go{width: 252px;height: 97px;position: absolute;margin-left: 194px;margin-top: 800px;z-index: 100;}
+
+.p3{width:640px; height:1040px; float:left; top:0; margin-top:0px; left:50%; margin-left:-320px; position:absolute; z-index:999; overflow:hidden;opacity:0;background: #fff;overflow: hidden;}
+	.p3_1{width: 390px;height: 171px;position: absolute;margin-left:125px;margin-top:182px;transform: scale(0)}
+	.p3_2{width: 640px;height: 1040px;position: absolute;opacity: 0;}
+.p4{width:640px; height:1040px; float:left; top:0; margin-top:0px; left:50%; margin-left:-320px; position:absolute; z-index:999; overflow:hidden;opacity:0;overflow: hidden;}
+	.p4_1{width: 640px;height: 36px;position: absolute;margin-top: 99px;}
+	.p4_2{width: 390px;height: 171px;position: absolute;margin-left:125px;margin-top:182px;transform: scale(0)}
+	.p4_3{width: 327px;height: 420px;position: absolute;margin-top:405px;margin-left: 180px;opacity: 0;}
+	.p4_4{width: 104px;height: 35px;position: absolute;margin-left: 493px;margin-top: 839px;z-index: 20;}
+	.p4_5{width: 640px;height: 145px;position: absolute;margin-top: 833px;
+    z-index: 5;}
+
+
+
+
+
+
+
+
+
+
+.DH_Rotate_5{animation-name: DH_Rotate_5; animation-duration: 2000ms; animation-iteration-count: infinite; animation-timing-function: linear; -webkit-animation-name: DH_Rotate_5; -webkit-animation-duration: 2000ms; -webkit-animation-iteration-count: infinite; -webkit-animation-timing-function: linear;}
+	@keyframes DH_Rotate_5 {
+		0% {transform:rotate(0deg)}
+    	99% {transform:rotate(360deg)}
+    	100% {transform:rotate(360deg)}
+	}
+	@-webkit-keyframes DH_Rotate_5 {
+		0% {-webkit-transform:rotate(0deg)}
+    	99% {-webkit-transform:rotate(360deg)}
+    	100% {-webkit-transform:rotate(360deg)}
+	}	
+
+.DH_Rotate{animation-name: DH_Rotate; animation-duration: 800ms; animation-iteration-count: 1; animation-timing-function: linear; -webkit-animation-name: DH_Rotate; -webkit-animation-duration: 800ms; -webkit-animation-iteration-count: 1; -webkit-animation-timing-function: linear;}
+	@keyframes DH_Rotate {
+		0% {transform:rotate(-360deg) scale(0.2) }
+    	100% {transform:rotate(0deg) scale(1) }
+	}
+	@-webkit-keyframes DH_Rotate {
+		0% {transform:rotate(-360deg) scale(0.2)}
+    	100% {transform:rotate(0deg) scale(1)}
+	}
+	/*扩散效果*/
+.DH_Scale{animation-name: DH_Scale; animation-duration: 3000ms; animation-iteration-count: infinite; animation-timing-function: linear; -webkit-animation-name: DH_Scale; -webkit-animation-duration: 3000ms; -webkit-animation-iteration-count: infinite; -webkit-animation-timing-function: linear;}
+	@keyframes DH_Scale {
+		0% {transform:scale(0.5);opacity: 0.5;}
+    	25% {transform:scale(0.8);opacity: 0.8}
+    	50% {transform:scale(1);opacity: 1}
+    	75% {transform:scale(0.8);opacity: 0.8}
+    	100% {transform:scale(0.5);opacity: 0.5}
+	}
+	@-webkit-keyframes DH_Scale {
+		0% {transform:scale(0.5);opacity: 0.5;}
+    	25% {transform:scale(0.8);opacity: 0.8}
+    	50% {transform:scale(1);opacity: 1}
+    	75% {transform:scale(0.8);opacity: 0.8}
+    	100% {transform:scale(0.5);opacity: 0.5}
+	}
+.DH_Opcit{animation-name: DH_Opcit; animation-duration: 3000ms; animation-iteration-count: infinite; animation-timing-function: linear; -webkit-animation-name: DH_Opcit; -webkit-animation-duration: 3000ms; -webkit-animation-iteration-count: infinite; -webkit-animation-timing-function: linear;}
+	@keyframes DH_Opcit {
+		0% {opacity: 0.5;}
+    	25% {opacity: 0.8}
+    	50% {opacity: 1}
+    	75% {opacity: 0.8}
+    	100% {opacity: 0.5}
+	}
+	@-webkit-keyframes DH_Opcit {
+		0% {opacity: 0.5;}
+    	25% {opacity: 0.8}
+    	50% {opacity: 1}
+    	75% {opacity: 0.8}
+    	100% {opacity: 0.5}
+	}
+.DH_Rotate_3{animation-name: DH_Rotate_3; animation-duration: 4000ms; animation-iteration-count: infinite; animation-timing-function: linear; -webkit-animation-name: DH_Rotate_3; -webkit-animation-duration: 4000ms; -webkit-animation-iteration-count: infinite; -webkit-animation-timing-function: linear;}
+	@keyframes DH_Rotate_3 {
+		0% {transform:rotate(0deg);}
+    	25% {transform:rotate(-47deg);}
+    	50% {transform:rotate(0deg);}
+    	70% {transform:rotate(-47deg);}
+    	100% {transform:rotate(0deg);}
+	}
+	@-webkit-keyframes DH_Rotate_3 {
+		0% {-webkit-transform:rotate(0deg);}
+    	25% {-webkit-transform:rotate(-47deg);}
+    	50% {-webkit-transform:rotate(0deg);}
+    	75% {-webkit-transform:rotate(-47deg);}
+    	100% {-webkit-transform:rotate(0deg);}
+	}
+.DH_Rotate_4{animation-name: DH_Rotate_4; animation-duration:2000ms; animation-iteration-count: infinite; animation-timing-function: linear; -webkit-animation-name: DH_Rotate_4; -webkit-animation-duration: 2000ms; -webkit-animation-iteration-count: infinite; -webkit-animation-timing-function: linear;}
+	@keyframes DH_Rotate_4 {
+		0% {opacity:0;}
+    	25% {opacity:0.5;}
+    	50% {opacity:1;}
+    	70% {opacity:0.5;}
+    	100% {opacity:0;}
+	}
+	@-webkit-keyframes DH_Rotate_4 {
+		0% {opacity:0;}
+    	25% {opacity:0.5;}
+    	50% {opacity:1;}
+    	70% {opacity:0.5;}
+    	100% {opacity:0;}
+	}
+.DH_hua_1{animation-name: DH_hua_1; animation-duration: 5000ms; animation-iteration-count: infinite; animation-timing-function: linear; -webkit-animation-name: DH_hua_1; -webkit-animation-duration: 5000ms; -webkit-animation-iteration-count: infinite; -webkit-animation-timing-function: linear;}
+		@keyframes DH_hua_1 {
+		0% {transform:rotate(0deg);}
+    	25% {transform:rotate(0.7deg);}
+    	50% {transform:rotate(0deg);}
+    	75% {transform:rotate(0.7deg);}
+    	100% {transform:rotate(0deg);}
+	}
+	@-webkit-keyframes DH_hua_1 {
+		0% {-webkit-transform:rotate(0deg);}
+    	25% {-webkit-transform:rotate(0.7deg);}
+    	50% {-webkit-transform:rotate(0deg);}
+    	75% {-webkit-transform:rotate(0.7deg);}
+    	100% {-webkit-transform:rotate(0deg);}
+	}
+.DH_hua_2{animation-name: DH_hua_2; animation-duration: 4000ms; animation-iteration-count: infinite; animation-timing-function: linear; -webkit-animation-name: DH_hua_2; -webkit-animation-duration: 4000ms; -webkit-animation-iteration-count: infinite; -webkit-animation-timing-function: linear;}
+		@keyframes DH_hua_2 {
+		0% {transform:rotate(0deg);}
+    	25% {transform:rotate(0.8deg);}
+    	50% {transform:rotate(0deg);}
+    	75% {transform:rotate(0.8deg);}
+    	100% {transform:rotate(0deg);}
+	}
+	@-webkit-keyframes DH_hua_2 {
+		0% {-webkit-transform:rotate(0deg);}
+    	25% {-webkit-transform:rotate(0.8deg);}
+    	50% {-webkit-transform:rotate(0deg);}
+    	75% {-webkit-transform:rotate(0.8deg);}
+    	100% {-webkit-transform:rotate(0deg);}
+	}
+.DH_hua_3{animation-name: DH_hua_3; animation-duration: 6500ms; animation-iteration-count: infinite; animation-timing-function: linear; -webkit-animation-name: DH_hua_3; -webkit-animation-duration: 6500ms; -webkit-animation-iteration-count: infinite; -webkit-animation-timing-function: linear;}
+		@keyframes DH_hua_3 {
+		0% {transform:rotate(0deg);}
+    	25% {transform:rotate(-1deg);}
+    	50% {transform:rotate(0deg);}
+    	75% {transform:rotate(-1deg);}
+    	100% {transform:rotate(0deg);}
+	}
+	@-webkit-keyframes DH_hua_3 {
+		0% {-webkit-transform:rotate(0deg);}
+    	25% {-webkit-transform:rotate(-1deg);}
+    	50% {-webkit-transform:rotate(0deg);}
+    	75% {-webkit-transform:rotate(-1deg);}
+    	100% {-webkit-transform:rotate(0deg);}
+	}
+.DH_pai_1{animation-name: DH_pai_1; animation-duration: 2000ms; animation-iteration-count: infinite; animation-timing-function: linear; -webkit-animation-name: DH_pai_1; -webkit-animation-duration: 2000ms; -webkit-animation-iteration-count: infinite; -webkit-animation-timing-function: linear;}
+		@keyframes DH_pai_1 {
+		0% {transform:rotate(0deg);}
+    	25% {transform:rotate(-2deg);}
+    	50% {transform:rotate(0deg);}
+    	75% {transform:rotate(2deg);}
+    	100% {transform:rotate(0deg);}
+	}
+	@-webkit-keyframes DH_pai_1 {
+		0% {-webkit-transform:rotate(0deg);}
+    	25% {-webkit-transform:rotate(-2deg);}
+    	50% {-webkit-transform:rotate(0deg);}
+    	75% {-webkit-transform:rotate(2deg);}
+    	100% {-webkit-transform:rotate(0deg);}
+	}
+.DH_load{animation-name: DH_load; animation-duration: 5000ms; animation-iteration-count: infinite; animation-timing-function: linear; -webkit-animation-name: DH_load; -webkit-animation-duration: 5000ms; -webkit-animation-iteration-count: infinite; -webkit-animation-timing-function: linear;}
+	@keyframes DH_load {
+		0% {margin-left:293px}
+    	50% {margin-left:0px}
+    	100% {margin-left:293px}
+	}
+	@-webkit-keyframes DH_load {
+		0% {margin-left:293px}
+    	50% {margin-left:0px}
+    	100% {margin-left:293px}
+	}
+.alert{width:200px; height:30px; bottom:0; left:0; background-color:#000; position:fixed; z-index:10000; float:left; font-size:30px;}
+.loading{width:640px; height:1040px; top:50%;margin-top: -520px; left:50%; margin-left:-320px;position:fixed; z-index:10000; float:left; filter:Alpha(Opacity=100);-moz-opacity:1; opacity: 1;}
+	.oa1{position: absolute; margin-top: 518px;margin-left: 293px; width:536px;z-index: 1;}
+	.oa2{position: absolute; margin-top: 550px;font-size: 30px;width: 640px;color:#fff;}
+	
+	
+		
+		
+		
+		

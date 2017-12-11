@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="C"/>
+<meta name="description" content="C"/>
+<title>《奔跑吧》的神秘成员</title>
+<script>
+</script>
+<script src="js/isDevice.js"></script>
+<script src="js/jquery-2.1.0.min.js"></script>
+<script src="js/jquery.transit.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/L.js"></script>
+<script src="js/ball.js"></script>
+<!--  <script src="js/mor_ball.js"></script>
+<script src="js/yun_nodong.js"></script>  -->
+<script src="js/no_yun.js"></script>
+<script src="js/touch.js"></script>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?69b72a1fef27ff7983f37785558285d3";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</head>
+<body>
+    <div class="loading" id="loading">
+        <img src="images/load.png" width="100%" class="show" style="z-index: 2">
+        <img src="images/2_03.jpg" style="margin-top: 397px;margin-left: 298px;width: 46px;z-index: -1" class="show">
+        <div class="oa1 DH_load">
+            <img src="images/1_03.png" width="100%" class="show">
+        </div> 
+    </div>
+    <div class="HP_TS">
+        <div class="jt DH_Rotate_3">
+            <img src="images/jt.png" width="100%" class="show">
+        </div>
+        <div class="sj">
+            <img src="images/sj.png" width="100%" class="show">
+        </div>
+    </div>
+    <div class="body">     
+        <img src="images/sound_off.png" style="display:none;" class="show" />
+        <div class="videoM DH_Rotate_5" id="videoM"><img src="images/sound.png" style="opacity: 1;"></div>
+        <div class="videoD">
+            <audio src="images/bgm1.mp3" id="video" loop preload="preload">
+                <source src="images/bgm1.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+        <audio src="images/find.mp3" id="video1" preload="preload">
+            <source src="images/find.mp3" type="audio/mpeg">
+        </audio>
+        <audio src="images/find.mp3" id="video2" preload="preload">
+            <source src="images/find.mp3" type="audio/mpeg">
+        </audio>
+        <audio src="images/find.mp3" id="video3" preload="preload">
+            <source src="images/find.mp3" type="audio/mpeg">
+        </audio>
+        <div class="JD JD_DH"></div>
+
+        <div class="p1" onclick="p1_5()">
+            <img src="images/mugu_03.png" class="show" style="width: 395px;right: 0;margin-top: 40px;z-index: 3;" />
+            <div class="p1_up"  onclick="p1_4()">
+                <img src="images/p1_up.png" class="show" />
+            </div>
+            <div class="p1_mx1">
+                <img src="images/mx1.png" class="show" />
+            </div>
+            <div class="p1_mx2">
+                <img src="images/mx2.png" class="show" />
+            </div>
+            <div class="p1_mx3">
+                <img src="images/mx3.png" class="show" />
+            </div>
+            <div class="p1_1" data-1=0>
+                <img src="images/p1_b1.png" class="show p1_i1 p1_i_1a" style="width: 261px;bottom: 0;margin-left: 219px;z-index: 5;"/>
+                <div class='p1_i_1b DH_hua_1 p1_i1' style="width: 640px;z-index: 4;margin-left: -3px;margin-top: -10px;height: 1028px;position: absolute;">
+                    <img src="images/p1_b2.png" class="show" width="100%" />
+                </div>
+                
+
+                <!-- <img src="images/p1_1_0.png" style="width: 100%;opacity: 0;margin-top: 45px;" class="p1_i2"/> -->
+
+            </div>
+            <div class="yun" style="margin-top: 400px;margin-left: 271px;" onclick="show_r(1,1,$(this))">
+                    <img src="images/yun_0.png" class=" yun1" style="width: 36px;margin-left: 17px;margin-top: 17px;" />
+                    <img src="images/yun_1.png" class=" yun2" style="width: 100%" />
+                </div>
+            <div class="p1_2" data-1=0>
+                <img src="images/p1_c1.png" class="show p1_i_2a" style="width: 314px;bottom: 0;z-index: 5;"/>
+                <img src="images/p1_c2.png" class="show p1_i_2b" style="width: 250px;margin-top: 352px;right: 0;z-index: 4;"/>
+                <div class="p1_i1 p1_i_2c DH_hua_2" style="width: 233px;right: 0;z-index: 3;height: 1046px;position: absolute;">
+                    <img src="images/p1_c3.png" class="show "/>
+                </div>
+
+
+                <!-- <img src="images/p1_2_0.png" style="width:151px;opacity: 0;margin-left: 160px;margin-top: 113px;" class="p1_i2"/> -->
+
+            </div>
+            <div class="yun" style="margin-top: 567px;margin-left: 494px;" onclick="show_r(2,1,$(this))">
+                <img src="images/yun_0.png" class=" yun1"  style="width: 36px;margin-left: 17px;margin-top: 17px;" />
+                <img src="images/yun_1.png" class=" yun2" style="width: 100%" />
+            </div>
+            <div class="p1_3" data-1=0>
+                <img src="images/p1_a1.png" class="show p1_i_3a" style="width: 286px;bottom: 0;z-index: 2;"/>
+                <div class=" p1_i1 p1_i_3c DH_hua_3" style="width: 282px;position: absolute;height: 1186px;margin-left: -5px;">
+                    <img src="images/p1_a2.png" class="show" style=""/>
+                </div>
+
+
+                <!-- <img src="images/p1_3_0.png" style="width: 286px;opacity: 0;bottom: 0;" class="p1_i2"/> -->
+                
+            </div>
+            <div class="yun" style="margin-top: 416px;margin-left: 24px;" onclick="show_r(3,1,$(this))">
+                <img src="images/yun_0.png" class=" yun1"  style="width: 36px;margin-left: 17px;margin-top: 17px;" />
+                <img src="images/yun_1.png" class=" yun2" style="width: 100%" />
+            </div>
+            <div class="p1_4"></div>
+
+
+            <!-- <div class="p1_r1">
+                <img src="images/p1_r1.png" style="opacity: 0;" />
+            </div>
+            <div class="p1_r2">
+                <img src="images/p1_r2.png" style="opacity: 0;" />
+            </div>
+            <div class="p1_r3">
+                <img src="images/p1_r3.png" style="opacity: 0;" />
+            </div>
+            <div class="p1_5">
+            </div> -->
+
+        </div>
+        
+        <div class="p2">
+            <!-- <img src="src/1_0.jpg" class="show p2_i" /> -->
+            <div class='can_go'>
+                <img src="src/can_go_1.png" class="show DH_Scale" style="width: 47px;margin-left:98px;" />
+                <img src="src/can_go.png" class="show" width="100%" />
+            </div>
+            <canvas id="canvas" width="640px;" height="1040px;"style="position: absolute;"></canvas>
+        </div>
+
+        <div class="p3">
+            <!-- <img src="images/p4.jpg" class="show"/>
+            <img src="images/p4_0.png" class="p3_0"/>
+            <div class="p4_1"><img src="images/p4_a.png" class="show"/></div>
+            <div class="p3_1"><img src="images/p3_b.png" class="show"/></div>
+            <div class="p3_2"><img src="images/p3_c.png" class="show"/></div>
+            <div class="p4_5"><img src="images/p4_e.png" class="show"/></div> -->
+        </div>
+            
+        <div class="p4">
+            <!-- <img src="images/p4.jpg" class="show"/>
+            <img src="images/p4_0.png" class="p4_0"/>
+            <img src="images/p4_1.png" class="show" style="z-index: 2" />
+            <div class="p4_1"><img src="images/p4_a.png" class="show"/></div>
+            <div class="p4_2"><img src="images/p3_b.png" class="show"/></div>
+            <div class="p4_3"><img src="images/p4_c.png" class="show"/></div>
+            <a href="http://weibo.com/p/10080866a31e187731b44f91ed71f9bcf3a16a?k=%E5%A5%94%E8%B7%91%E5%90%A7%E5%AE%89%E6%85%95%E5%B8%8C&from=526&_from_=huati_topic">
+                <div class="p4_4"><img src="images/p4_d.png" class="show"/></div>
+            <a/>
+            <div class="p4_5"><img src="images/p4_e.png" class="show"/></div> -->
+        </div>
+    </div>
+</body>
+<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script src="js/share.js"></script>
+<script src="js/jquery.imgpreload.min.js"></script>
+
+</html>
